@@ -19,6 +19,7 @@
 		0B62C1F31C43F6A2002500FE /* FlatBuffersBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62C1F01C43F1CD002500FE /* FlatBuffersBuilder.swift */; };
 		0BA0E8491C32B62200B896B7 /* FlatBuffersSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA0E8481C32B62200B896B7 /* FlatBuffersSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BE327781CD69BA00067DAC8 /* FlatBuffersSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA0E8451C32B62200B896B7 /* FlatBuffersSwift.framework */; };
+		1B71B8702407F7B10078AC55 /* FlatBuffersSwift.h in Sources */ = {isa = PBXBuildFile; fileRef = 0BA0E8481C32B62200B896B7 /* FlatBuffersSwift.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B71B8702407F7B10078AC55 /* FlatBuffersSwift.h in Sources */,
 				0B57C1291DCE98F00074EE0E /* FlatBuffersReader.swift in Sources */,
 				0B62C1F31C43F6A2002500FE /* FlatBuffersBuilder.swift in Sources */,
 			);
@@ -394,6 +396,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = FlatBuffersSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = maxim.zaks.FlatBuffersSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,6 +424,7 @@
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = FlatBuffersSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = maxim.zaks.FlatBuffersSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
